@@ -1,0 +1,11 @@
+Source: flutter-gbm-embedder
+Section: misc
+Priority: optional
+Maintainer: Thomas Bonnefille <thomas.bonnefille@bootlin.com>
+Build-Depends: cmake, clang, build-essential, pkg-config, libegl-dev, libxkbcommon-dev, libdrm-dev, libinput-dev, libgbm-dev, libsystemd-dev, libgles2-mesa-dev, flutter-engine, debhelper, clang-17, libc++-18-dev, libc++abi-18-dev, libfuzzer-18-dev, llvm-17, llvm-17-linker-tools, libclang-rt-17-dev, libfontconfig1-dev
+Standards-Version: 1.0.0
+
+Package: flutter-gbm-embedder
+Architecture: any
+Depends: 
+Description: Flutter Embedder for GBM
